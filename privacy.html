@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kebijakan Privasi - VG Tools</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #222;
+      margin: 0;
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 32px;
+      color: #e60000;
+      text-align: center;
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    }
+    h2 {
+      font-size: 24px;
+      margin-top: 30px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.8;
+    }
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .home-button {
+      background-color: #e60000;
+      color: white;
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .language-selector select {
+      padding: 6px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <a class="home-button" href="index.html">🏠 Beranda</a>
+    <div class="language-selector">
+      <select onchange="changeLanguage(this.value)">
+        <option value="id" selected>Bahasa</option>
+        <option value="en">English</option>
+      </select>
+    </div>
+  </div>
+
+  <h1>Kebijakan Privasi</h1>
+
+  <p>Selamat datang di VG Tools. Kami menghargai privasi Anda dan berkomitmen untuk melindungi informasi pribadi Anda saat Anda menggunakan layanan kami.</p>
+
+  <h2>Informasi yang Kami Kumpulkan</h2>
+  <p>Kami tidak secara langsung mengumpulkan informasi pribadi pengguna. Layanan kami hanya melakukan pemrosesan data video berdasarkan tautan yang dimasukkan oleh pengguna dan tidak menyimpan data tersebut di server kami.</p>
+
+  <h2>Penggunaan Informasi</h2>
+  <p>Informasi yang diproses melalui alat kami digunakan hanya untuk keperluan konversi atau pengunduhan video dan tidak disimpan secara permanen.</p>
+
+  <h2>Cookie</h2>
+  <p>VG Tools dapat menggunakan cookie untuk meningkatkan pengalaman pengguna, namun tidak mengandung informasi pribadi atau pelacakan perilaku.</p>
+
+  <h2>Iklan Pihak Ketiga</h2>
+  <p>Kami dapat menampilkan iklan pihak ketiga melalui layanan seperti Google AdSense. Pihak ketiga ini dapat menggunakan cookie untuk menayangkan iklan yang relevan.</p>
+
+  <h2>Perubahan Kebijakan</h2>
+  <p>Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Perubahan akan diberitahukan di halaman ini dan mulai berlaku segera setelah dipublikasikan.</p>
+
+  <h2>Kontak</h2>
+  <p>Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, Anda dapat menghubungi kami di giantsversus@gmail.com.</p>
+
+  <p>Terakhir diperbarui: Juni 2025</p>
+
+  <script>
+    function changeLanguage(lang) {
+          if (lang === 'en') {
+              window.location.href = "privacy-en.html";
+                } else if (lang === 'id') {
+                    window.location.href = "privacy.html";
+                      }
+                      }
+  </script>
+</body>
+</html>
